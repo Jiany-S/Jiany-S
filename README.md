@@ -1,43 +1,109 @@
 # 👋 Hi, I'm Jiany Samara
 
-🎓 CS undergraduate at the American University of Beirut  
-💡 Focused on **Machine Learning** & **Distributed Systems**  
-🚀 Building scalable projects: from a Java PoW Blockchain Node to an LSTM Nowcasting Pipeline and a Real-Time Recommender.
+🎓 BSc Computer Science — Rank 1/152 (4.0 GPA), American University of Beirut  
+🔬 Research Assistant — Cognitive Digital Twins & Autonomous Robotics  
+⚙️ ML Systems | Distributed Infrastructure | Probabilistic Modeling  
+
+I build research-driven machine learning systems and production-grade backend infrastructure, with a focus on real-time modeling, safety-aware systems, and scalable architecture.
 
 ---
 
-### 🧠 About Me
-- Research Assistant at AUB — working on **cognitive digital twins** & **autonomous robotics**
-- Treasurer at the **Computer Science Student Society (CSSS)**, enabling 100+ student projects
-- Committee Consultant at **AUBMUN**, coordinating 1,200+ participants across 30 committees
-- Passionate about **AI infrastructure**, **clean architecture**, and **open collaboration**
+## 🔬 Research
+
+### 🧠 Multimodal Stress Classification Pipeline
+> Subject-holdout benchmark on WESAD (11,988 test windows)
+
+- Integrated ECG, HRV, EDA, and EEG signals
+- Compared XGBoost vs Temporal Fusion Transformer
+- Achieved **AUROC 0.768 / F1 0.576**
+- Implemented personalized baseline profiling
+- Built full preprocessing, windowing, training, and evaluation pipeline
+
+🔗 [View Repository]([LINK_TO_REPO](https://github.com/Jiany-S/twin-psych-risk-model))
 
 ---
 
-### 🔧 Tech Stack
-**Languages:** Java, Python, JavaScript, C++, SQL  
-**Frameworks & Tools:** TensorFlow, scikit-learn, Netty, RocksDB, Express.js, React Native  
+### 🌍 Bayesian World Cup 2026 Simulation Model *(Private Repository)*
+> Large-scale probabilistic tournament forecasting framework
+
+- Bayesian updating of team strength using temporal performance features
+- Monte Carlo simulation of full tournament brackets (10K+ runs)
+- Dynamic match outcome modeling with calibrated probability distributions
+- Designed modular pipeline for feature ingestion, strength estimation, and simulation
+
+*Code available upon request.*
+
+---
+
+## ⚙️ Systems & Infrastructure
+
+### 🧩 Java Blockchain Node
+> Account-based Proof-of-Work node with deterministic replay
+
+- Validated **120K+ blocks** with zero consensus divergence
+- Exposed 14+ REST/RPC endpoints
+- Integrated Prometheus metrics for observability
+- Automated CI/CD publishing Docker images & shaded JARs
+
+**Tech:** Java, Netty, RocksDB, Docker  
+🔗 [View Repository]([LINK](https://github.com/Jiany-S/java-blockchain))
+
+---
+
+## 📈 Applied Machine Learning
+
+### Inflation Nowcasting Neural Network
+> LSTM-based macroeconomic forecasting system
+
+- Reduced **MAE by 28% (0.438 → 0.315)**
+- Reduced **sMAPE by 16.9% vs XGBoost**
+- Implemented 60-lag feature engineering
+- Built rolling backtest & automated evaluation pipeline
+
+**Tech:** Python, TensorFlow, pandas  
+🔗 [View Repository]([LINK](https://github.com/Jiany-S/inflation-nn))
+
+---
+
+### 🤝 Willing — AI Volunteer Matching Platform
+> Real-time semantic recommendation engine
+
+- Dual-vector user modeling with cosine similarity ranking
+- PostgreSQL + pgvector scalable retrieval
+- Real-time embedding update pipeline
+
+**Tech:** Node.js, OpenAI embeddings, PostgreSQL  
+🔗 [View Repository]([LINK](https://github.com/Jiany-S/willing))
+
+---
+
+## 🛠 Tech Stack
+
+**Languages:** Java, Python, C++, JavaScript, SQL  
+**ML & Data:** PyTorch, TensorFlow, scikit-learn, XGBoost, pgvector  
+**Systems:** Netty, RocksDB, REST/RPC, Express.js  
 **Databases:** PostgreSQL, Supabase, Redis  
-**DevOps:** Docker, Linux, Git  
+**DevOps:** Docker, Linux, GitHub Actions, CI/CD  
 
 ---
 
-### 📚 Featured Projects
-| Project | Description | Tech |
-|----------|--------------|------|
-| 🧩 [Java Blockchain Node](https://github.com/Jiany-S/java-blockchain) | Account-based PoW blockchain with RocksDB, Netty, REST & Prometheus metrics | Java, RocksDB, Netty |
-| 📈 [Inflation Nowcasting](https://github.com/Jiany-S/inflation-nn) | LSTM model predicting inflation trends with 12% lower MAPE than XGBoost | Python, TensorFlow |
-| 🍽️ [Restaurant Recommender](#) | Hybrid recommender with <50 ms retrieval and 9% higher CTR | Node.js, Supabase, Python |
+## 🏛 Leadership
+
+- Treasurer — Computer Science Student Society (100+ members)
+- Research Assistant — AUB Robotics & Digital Twins Lab
+- Committee Consultant — AUBMUN (1,000+ participants)
 
 ---
 
-### 🌐 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jianysamara)  
-[![GitHub](https://img.shields.io/badge/GitHub-gray?style=flat&logo=github)](https://github.com/Jiany-S)  
-[![Email](https://img.shields.io/badge/Email-jianysamara%40gmail.com-red?style=flat&logo=gmail)](mailto:jianysamara@gmail.com)
+## 🌐 Connect
+
+[LinkedIn](https://www.linkedin.com/in/jianysamara)  
+[GitHub](https://github.com/Jiany-S)  
+Email: jianysamara@gmail.com  
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Activity
+
 ![Jiany's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jiany-S&show_icons=true&theme=tokyonight&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jiany-S&layout=compact&theme=tokyonight&hide_border=true)
