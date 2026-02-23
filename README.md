@@ -19,7 +19,7 @@ I build research-driven machine learning systems and production-grade backend in
 - Implemented personalized baseline profiling
 - Built full preprocessing, windowing, training, and evaluation pipeline
 
-🔗 [View Repository]([LINK_TO_REPO](https://github.com/Jiany-S/twin-psych-risk-model))
+🔗 [View Repository](https://github.com/Jiany-S/twin-psych-risk-model)
 
 ---
 
@@ -46,7 +46,7 @@ I build research-driven machine learning systems and production-grade backend in
 - Automated CI/CD publishing Docker images & shaded JARs
 
 **Tech:** Java, Netty, RocksDB, Docker  
-🔗 [View Repository]([LINK](https://github.com/Jiany-S/java-blockchain))
+🔗 [View Repository](https://github.com/Jiany-S/java-blockchain)
 
 ---
 
@@ -61,7 +61,7 @@ I build research-driven machine learning systems and production-grade backend in
 - Built rolling backtest & automated evaluation pipeline
 
 **Tech:** Python, TensorFlow, pandas  
-🔗 [View Repository]([LINK](https://github.com/Jiany-S/inflation-nn))
+🔗 [View Repository](https://github.com/Jiany-S/inflation-nn)
 
 ---
 
@@ -73,7 +73,7 @@ I build research-driven machine learning systems and production-grade backend in
 - Real-time embedding update pipeline
 
 **Tech:** Node.js, OpenAI embeddings, PostgreSQL  
-🔗 [View Repository]([LINK](https://github.com/Jiany-S/willing))
+🔗 [View Repository](https://github.com/Jiany-S/willing)
 
 ---
 
