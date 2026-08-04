@@ -165,15 +165,21 @@ The objective is to improve correctness and evidence support while reducing unne
 
 ---
 
-## 📊 GitHub Activity
+## 📊 Explore My GitHub
 
 <div align="center">
 
-<img width="60%" src="https://github-readme-stats.vercel.app/api?username=Jiany-S&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="Jiany's GitHub statistics" />
+[**View All Repositories →**](https://github.com/Jiany-S?tab=repositories)
 
-<br />
+Research code, machine learning pipelines, probabilistic models,  
+full-stack applications, and systems engineering projects.
 
-<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jiany-S&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Jiany's most used languages" />
+<br>
+
+[Research](https://github.com/Jiany-S/twin-psych-risk-model) ·
+[Probabilistic Forecasting](https://github.com/Jiany-S/WorldCup_ML) ·
+[Machine Learning](https://github.com/Jiany-S/Inflation-Nowcast) ·
+[Systems](https://github.com/Jiany-S/java-blockchain)
 
 </div>
 
