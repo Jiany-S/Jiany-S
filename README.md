@@ -1,109 +1,90 @@
-# 👋 Hi, I'm Jiany Samara
+# Jiany Samara
 
-🎓 BSc Computer Science — Rank 1/152 (4.0 GPA), American University of Beirut  
-🔬 Research Assistant — Cognitive Digital Twins & Autonomous Robotics  
-⚙️ ML Systems | Distributed Infrastructure | Probabilistic Modeling  
+**Computer Science @ AUB · Machine Learning Research · Probabilistic Modeling · Systems**
 
-I build research-driven machine learning systems and production-grade backend infrastructure, with a focus on real-time modeling, safety-aware systems, and scalable architecture.
+I am a Computer Science student at the American University of Beirut, ranked **1st out of 152** and selected as a **President’s Merit Scholar**.
 
----
+My work spans machine learning research, probabilistic forecasting, and systems engineering. I am particularly interested in building reproducible, end-to-end systems—from data processing and model evaluation to APIs, storage, testing, and deployment.
 
-## 🔬 Research
+## Research
 
-### 🧠 Multimodal Stress Classification Pipeline
-> Subject-holdout benchmark on WESAD (11,988 test windows)
+* **Human–robot collaboration:** Research assistant at AUB working on physiological modeling, cognitive digital twins, and adaptive human–robot systems.
+* **EC3 2026:** Co-authored a conference paper on role-aware human–robot collaboration in 3D concrete printing, proposing a Human–Robot–Site taxonomy and predictive digital twin framework.
+* **Current FYP:** Developing a cost-aware decision policy for biomedical question answering that learns when an LLM should answer directly, retrieve evidence, verify its response, or abstain.
 
-- Integrated ECG, HRV, EDA, and EEG signals
-- Compared XGBoost vs Temporal Fusion Transformer
-- Achieved **AUROC 0.768 / F1 0.576**
-- Implemented personalized baseline profiling
-- Built full preprocessing, windowing, training, and evaluation pipeline
+## Selected Projects
 
-🔗 [View Repository](https://github.com/Jiany-S/twin-psych-risk-model)
+### [Personalized Human-State Forecasting for Human–Robot Collaboration](https://github.com/Jiany-S/twin-psych-risk-model)
 
----
+Physiological modeling and multi-rate supervisory replay for human–robot collaboration research.
 
-### 🌍 Bayesian World Cup 2026 Simulation Model *(Private Repository)*
-> Large-scale probabilistic tournament forecasting framework
+* Built held-out-subject stress modeling pipelines on WESAD, reaching **AUROC 0.768 across 11,988 evaluation windows**
+* Implemented personalized calibration using subject-specific baseline segments
+* Developed fast current-state detection and multi-horizon forecasting pipelines
+* Designed a timestamp-driven replay architecture separating physiological recommendations from deterministic physical-safety rules
 
-- Bayesian updating of team strength using temporal performance features
-- Monte Carlo simulation of full tournament brackets (10K+ runs)
-- Dynamic match outcome modeling with calibrated probability distributions
-- Designed modular pipeline for feature ingestion, strength estimation, and simulation
-
-*Code available upon request.*
+**Technologies:** Python, PyTorch, XGBoost, Temporal Fusion Transformers, physiological signal processing
 
 ---
 
-## ⚙️ Systems & Infrastructure
+### [FIFA World Cup 2026 Forecasting](https://github.com/Jiany-S/WorldCup_ML)
 
-### 🧩 Java Blockchain Node
-> Account-based Proof-of-Work node with deterministic replay
+A leakage-safe probabilistic forecasting toolkit for the official 48-team tournament format.
 
-- Validated **120K+ blocks** with zero consensus divergence
-- Exposed 14+ REST/RPC endpoints
-- Integrated Prometheus metrics for observability
-- Automated CI/CD publishing Docker images & shaded JARs
+* Built regularized Poisson goal models with team attack and defense effects
+* Engineered temporal-form, team-strength, squad-quality, rating, and optional event/xG features
+* Processed **460K+ raw football rows**, including match, lineup, pressure, and player-level records
+* Added chronological backtests, calibration diagnostics, stage probabilities, and **100K Monte Carlo tournament simulations**
 
-**Tech:** Java, Netty, RocksDB, Docker  
-🔗 [View Repository](https://github.com/Jiany-S/java-blockchain)
+**Technologies:** Python, pandas, scikit-learn, XGBoost, probabilistic modeling, Monte Carlo simulation
 
 ---
 
-## 📈 Applied Machine Learning
+### [Inflation Nowcasting with Machine Learning](https://github.com/Jiany-S/Inflation-Nowcast)
 
-### Inflation Nowcasting Neural Network
-> LSTM-based macroeconomic forecasting system
+Next-month U.S. CPI inflation forecasting using leakage-safe macroeconomic features.
 
-- Reduced **MAE by 28% (0.438 → 0.315)**
-- Reduced **sMAPE by 16.9% vs XGBoost**
-- Implemented 60-lag feature engineering
-- Built rolling backtest & automated evaluation pipeline
+* Built a reproducible pipeline using monthly FRED economic data
+* Benchmarked naive models, ARIMA, Ridge, Lasso, XGBoost, and LSTM architectures
+* Achieved the best held-out performance with XGBoost: **MAE 0.158, sMAPE 5.73, MASE 0.547**
+* Added rolling backtests, uncertainty intervals, feature importance, ablations, and automated reports
 
-**Tech:** Python, TensorFlow, pandas  
-🔗 [View Repository](https://github.com/Jiany-S/inflation-nn)
+**Technologies:** Python, TensorFlow, XGBoost, scikit-learn, FRED, time-series modeling
 
 ---
 
-### 🤝 Willing — AI Volunteer Matching Platform
-> Real-time semantic recommendation engine
+### [Willing — AI Volunteer Matching Platform](https://github.com/Jiany-S/willing)
 
-- Dual-vector user modeling with cosine similarity ranking
-- PostgreSQL + pgvector scalable retrieval
-- Real-time embedding update pipeline
+A civic-technology platform connecting volunteers with NGOs and community opportunities.
 
-**Tech:** Node.js, OpenAI embeddings, PostgreSQL  
-🔗 [View Repository](https://github.com/Jiany-S/willing)
+* Founded and developed a searchable volunteer-opportunity platform
+* Built semantic recommendation pipelines using OpenAI embeddings
+* Represented users and opportunities as vectors for similarity-based matching
+* Developed a full-stack application with typed APIs, authentication, validation, and PostgreSQL storage
 
----
-
-## 🛠 Tech Stack
-
-**Languages:** Java, Python, C++, JavaScript, SQL  
-**ML & Data:** PyTorch, TensorFlow, scikit-learn, XGBoost, pgvector  
-**Systems:** Netty, RocksDB, REST/RPC, Express.js  
-**Databases:** PostgreSQL, Supabase, Redis  
-**DevOps:** Docker, Linux, GitHub Actions, CI/CD  
+**Technologies:** TypeScript, React, Node.js, Express, PostgreSQL, pgvector, OpenAI embeddings, Docker
 
 ---
 
-## 🏛 Leadership
+### [Java Blockchain Node](https://github.com/Jiany-S/java-blockchain)
 
-- Treasurer — Computer Science Student Society (100+ members)
-- Research Assistant — AUB Robotics & Digital Twins Lab
-- Committee Consultant — AUBMUN (1,000+ participants)
+An account-based Proof-of-Work blockchain node built around deterministic state management and persistent storage.
 
----
+* Implemented transactions, mining, wallet management, Merkle-root validation, and cumulative-work fork choice
+* Added RocksDB-backed persistence and deterministic chain replay
+* Built Netty-based peer-to-peer networking with heartbeats and peer eviction
+* Exposed authenticated REST/RPC APIs and Prometheus-compatible metrics
+* Automated testing, release artifacts, and Docker publishing with GitHub Actions
 
-## 🌐 Connect
+**Technologies:** Java, Netty, RocksDB, Gradle, Docker, REST/RPC, Prometheus
 
-[LinkedIn](https://www.linkedin.com/in/jianysamara)  
-[GitHub](https://github.com/Jiany-S)  
-Email: jianysamara@gmail.com  
+## Technical Toolkit
 
----
+**Languages:** Python, Java, TypeScript, JavaScript, C, SQL
+**Machine Learning:** PyTorch, TensorFlow, scikit-learn, XGBoost, Hugging Face Transformers
+**Data and Infrastructure:** PostgreSQL, pgvector, Redis, RocksDB, Docker, Linux
+**Engineering:** REST/RPC APIs, GitHub Actions, CI/CD, testing, reproducible experimentation
 
-## 📊 GitHub Activity
+## Connect
 
-![Jiany's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jiany-S&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jiany-S&layout=compact&theme=tokyonight&hide_border=true)
+[LinkedIn](https://www.linkedin.com/in/jianysamara) · [Email](mailto:jianysamara@gmail.com)
