@@ -169,8 +169,11 @@ The objective is to improve correctness and evidence support while reducing unne
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Jiany-S&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jiany-S&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<img width="60%" src="https://github-readme-stats.vercel.app/api?username=Jiany-S&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="Jiany's GitHub statistics" />
+
+<br />
+
+<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jiany-S&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Jiany's most used languages" />
 
 </div>
 
